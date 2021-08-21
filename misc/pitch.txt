@@ -1,0 +1,20 @@
+Capstone Pitch Card
+
+
+Give a brief overview of what your app is:
+
+The app will allow owners of copiers to place service calls on their copiers, the copier company will be able to observe and dispatch open service calls, the copier technitian will recieve all infor related to the service call and acknoledge status of arrival.
+
+Describe the business problem your app solves:
+
+this will minimize copier downtime for the customer and customer retention for the copier company. it will also match the appropriately trained tech to the right equipment
+
+
+What Apis, if any, do you plan to use? Please list the API and what feature it ties to:
+
+google api for showing the location of customer with open service call
+
+
+What is your project "wow factor":
+
+by matching technician training level to the appropriate model of copier maintenance cost will be lowered by reducing repeat visits, also technicians in major cities will be able to specialize in a smaller range of products.
