@@ -53,8 +53,6 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
-CORS_ORIGIN_ALLOW_ALL = True
-
 ROOT_URLCONF = 'routingProject.urls'
 
 TEMPLATES = [
@@ -123,3 +121,5 @@ try:
     from routingProject.local_settings import *
 except ImportError:
     pass
+
+CORS_ORIGIN_ALLOW_ALL = True

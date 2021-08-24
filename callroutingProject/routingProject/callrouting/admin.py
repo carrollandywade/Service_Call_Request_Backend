@@ -1,6 +1,6 @@
 from django.contrib import admin
 from .models import (Customer, ContractedCopier, Manager, FieldTechnician, CopierTraining, ServiceRequest,
-                     ServiceResponse)
+                     ServiceResponse, ServiceHistory)
 
 
 # Register your models here.
@@ -12,3 +12,4 @@ admin.site.register(FieldTechnician)
 admin.site.register(CopierTraining)
 admin.site.register(ServiceRequest)
 admin.site.register(ServiceResponse)
+admin.site.register(ServiceHistory)

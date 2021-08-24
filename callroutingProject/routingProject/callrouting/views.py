@@ -102,13 +102,13 @@ class ServiceRequestDetail(APIView):
         except ServiceRequest.DoesNotExist:
             raise Http404
 
-    def get(self, request, fk, pk):
-        copier = ServiceRequest.objects.get(contracted_copier=fk, id=pk)
+    def get(self, request, fk):
+        copier = ServiceRequest.objects.get(contracted_copier=fk)
         serializer = ServiceRequestSerializer(copier)
         return Response(serializer.data)
 
-    def delete(self, request, pk, fk):
-        copier = ServiceRequest.objects.get(contracted_copier=fk, id=pk)
+    def delete(self, request, fk):
+        copier = ServiceRequest.objects.get(contracted_copier=fk)
         copier.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
